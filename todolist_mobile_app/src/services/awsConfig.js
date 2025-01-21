@@ -15,8 +15,15 @@
 
 import Amplify from 'aws-amplify';
 import awsconfig from '../aws-exports';
+import 'react-native-url-polyfill/auto'; // URL Polyfill 추가
 
+//Amplify 구성
 Amplify.configure(awsconfig);
+
+//Amplify.configure({
+//     ...awsconfig,
+//     ssr:false,
+//});
 
 // S3에 파일 업로드 예제
 export const uploadToS3 = async (file) => {

@@ -10,6 +10,11 @@
       "StackName": "amplify-todolistmobileapp-dev-c5087",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:931292939392:stack/amplify-todolistmobileapp-dev-c5087/cbe66540-d734-11ef-9edf-0a7b4c57f1cd",
       "AmplifyAppId": "d23vwews8ux20v"
+    },
+    "categories": {
+      "auth": {
+        "todolistmobileapp86e9b01d": {}
+      }
     }
   }
 }
